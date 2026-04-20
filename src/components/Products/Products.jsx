@@ -13,6 +13,7 @@ const ProductsData = [
         id: 1,
         img: Img1,
         title : "Women Western",
+        price : "$500",
         rating : 5.0,
         color : "White",
         aosDelay: "0",
@@ -21,6 +22,7 @@ const ProductsData = [
         id: 2,
         img: Img2,
         title : "Women Formal",
+        price : "$600",
         rating : 4.5,
         color : "Black",
         aosDelay: "100",
@@ -29,6 +31,7 @@ const ProductsData = [
         id: 3,
         img: Img3,
         title : "Women Casual",
+        price : "$700",
         rating : 4.4,
         color : "Blue",
         aosDelay: "200",
@@ -37,6 +40,7 @@ const ProductsData = [
         id: 4,
         img: Img4,
         title : "Women Party",
+        price : "$800",
         rating : 4.8,
         color : "Red",
         aosDelay: "300",
@@ -45,6 +49,7 @@ const ProductsData = [
         id: 5,
         img: Img5,
         title : "Women T-Shirt",
+        price : "$900",
         rating : 4.2,
         color : "Green",
         aosDelay: "400",
@@ -53,6 +58,7 @@ const ProductsData = [
         id: 6,
         img: Img6,  
         title : "Women Jeans",
+        price : "$1000",
         rating : 4.5,
         color : "Yellow",
         aosDelay: "500",
@@ -87,6 +93,7 @@ const Products = ( {handleOrderPopup}) => {
                             <h3  className="font-semibold">{data.title}</h3>
                             <p className="text-gray-500 text-sm">{data.color}</p>
                             {/* <p className="text-gray-500 text-sm"> {data.aosDelay}</p> */}
+                            <p className="text-gray-500 text-sm">{data.price}</p>
                             
                             <div className="flex items-center mt-1" >
                                 <FaStar className="text-yellow-400" />
